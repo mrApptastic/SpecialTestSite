@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MrScoreBoard.Migrations
+namespace SpecialTestSite.Migrations
 {
     public partial class InitialCreate : Migration
     {

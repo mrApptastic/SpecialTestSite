@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "MrScoreBoard": {
+    "SpecialTestSite": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -52,18 +52,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MrScoreBoard:build"
+            "browserTarget": "SpecialTestSite:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "MrScoreBoard:build:production"
+              "browserTarget": "SpecialTestSite:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "MrScoreBoard:build"
+            "browserTarget": "SpecialTestSite:build"
           }
         },
         "test": {
@@ -122,7 +122,7 @@
         }
       }
     },
-    "MrScoreBoard-e2e": {
+    "SpecialTestSite-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -130,7 +130,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "MrScoreBoard:serve"
+            "devServerTarget": "SpecialTestSite:serve"
           }
         },
         "lint": {
@@ -145,7 +145,7 @@
       }
     }
   },
-  "defaultProject": "MrScoreBoard",
+  "defaultProject": "SpecialTestSite",
   "schematics": {
     "@schematics/angular:component": {
       "styleext": "scss"

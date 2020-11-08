@@ -1,6 +1,6 @@
 using System;
 
-namespace MrScoreBoard
+namespace SpecialTestSite
 {
     public class WeatherForecast
     {

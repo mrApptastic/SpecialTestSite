@@ -1,4 +1,4 @@
-export const ApplicationName = "MrScoreBoard";
+export const ApplicationName = "SpecialTestSite";
 
 export const ReturnUrlType = "returnUrl";
 

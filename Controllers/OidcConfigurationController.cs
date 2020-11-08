@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace MrScoreBoard.Controllers
+namespace SpecialTestSite.Controllers
 {
     public class OidcConfigurationController : Controller
     {

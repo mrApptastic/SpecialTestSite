@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.EntityFrameworkCore;
-using MrScoreBoard.Data;
-using MrScoreBoard.Models;
+using SpecialTestSite.Data;
+using SpecialTestSite.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MrScoreBoard.Hubs;
+using SpecialTestSite.Hubs;
 
-namespace MrScoreBoard
+namespace SpecialTestSite
 {
     public class Startup
     {
