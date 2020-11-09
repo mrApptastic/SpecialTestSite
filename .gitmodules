@@ -1,0 +1,3 @@
+[submodule "translationBandit"]
+	path = translationBandit
+	url = https://github.com/mrApptastic/translationBandit
