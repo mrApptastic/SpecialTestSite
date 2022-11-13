@@ -18,6 +18,7 @@ import { ChatComponent } from '@components/chat/chat.component';
 import { AboutComponent } from '@components/about/about.component';
 import { ProductsComponent } from '@components/products/products.component';
 import { StoreComponent } from '@components/store/store.component';
+import { ScoreboardService } from "@services/scoreboard.service";
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { StoreComponent } from '@components/store/store.component';
   ],
   providers: [
     ChatService,
+    ScoreboardService,
     { provide: HTTP_INTERCEPTORS, useClass: AuthorizeInterceptor, multi: true }
   ],
   bootstrap: [AppComponent]

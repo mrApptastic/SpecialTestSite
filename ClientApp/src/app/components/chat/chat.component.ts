@@ -14,8 +14,8 @@ export class ChatComponent {
   message = new Message();
 
   constructor(private chatService: ChatService, private _ngZone: NgZone) {
-    this.subscribeToEvents();
-  }
+      this.subscribeToEvents();
+    }
 
   sendMessage(): void {
     if (this.txtMessage) {
